@@ -1,0 +1,14 @@
+[package]
+name = "img"
+version = "0.1.0"
+authors = ["Divino G. de Menezes Neto <dgmneto@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1"
+quicli = "0.4"
+structopt = "0.2" # keep 0.2 because of quicli
+image = "0.22"
+rand = "0.7"
+kdtree = "0.6"
+itertools = "0.8"
